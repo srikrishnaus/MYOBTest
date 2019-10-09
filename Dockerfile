@@ -8,9 +8,15 @@ ADD . /flask-app
 
 WORKDIR /flask-app/MYOBTest
 
+RUN pwd
+
+RUN ls
+
 RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
 
 CMD ["app.py"]
+
+
 
