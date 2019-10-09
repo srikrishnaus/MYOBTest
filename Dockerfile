@@ -6,7 +6,7 @@ RUN apt-get install -y python-pip python-dev build-essential
 
 ADD . /flask-app
 
-WORKDIR /flask-app/MYOBTest
+WORKDIR /flask-app
 
 RUN pwd
 
